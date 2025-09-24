@@ -1,0 +1,37 @@
+
+#!/usr/bin/env sage
+# Purpose: export basic local data for E/Q (a_ell up to B, Tamagawa, torsion, rank).
+# Usage:   sage src/01_curve_data.sage <curve_label> [B=5000]
+# Output:  data/a_ell_<curve>_B<B>.csv  (header: ell,a_ell)
+# Example: sage src/01_curve_data.sage 37a1 5000
+# Notes:   skips primes dividing N; uses Sage EllipticCurve API.
+
+
+#!/usr/bin/env sage
+import sys
+from sage.all import *
+
+curve = sys.argv[1] if len(sys.argv) > 1 else '37a1'
+B = Integer(sys.argv[2]) if len(sys.argv) > 2 else 5000
+
+E = EllipticCurve(curve)
+N = E.conductor()
+print(f"Curve: {curve}, conductor N={N}")
+
+primes = [p for p in prime_range(B) if N % p != 0]
+rows = [(int(p), int(E.ap(p))) for p in primes]
+
+# load_dir('data')  # commented out - function doesn't exist
+import os
+os.makedirs('data', exist_ok=True)
+fn = f"data/a_ell_{curve}_B{B}.csv"
+with open(fn, 'w') as f:
+    f.write("ell,a_ell\n")
+    for p,a in rows:
+        f.write(f"{p},{a}\n")
+print(f"[01] wrote {len(rows)} rows to {fn}")
+
+# Also basic local data
+print(f"Tamagawa numbers c_p: {E.tamagawa_numbers()}")
+print(f"Torsion order: {E.torsion_subgroup().order()}")
+print(f"Rank (Sage): {E.rank()}")
