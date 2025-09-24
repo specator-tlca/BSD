@@ -18,7 +18,7 @@ Computational verification of key components in the operator-Fredholm approach t
 wsl -d Ubuntu-22.04  # or your WSL distribution name
 
 # Navigate to project directory
-cd /mnt/e/engGit/Gem/LX/BSD  # adjust path as needed
+cd /mnt/'your dir'  # adjust path as needed
 
 # Make scripts executable
 chmod +x run_all.sh
@@ -39,7 +39,7 @@ pip install -r requirements.txt
 ```bash
 # Open WSL and navigate to project
 wsl -d Ubuntu-22.04
-cd /mnt/e/engGit/Gem/LX/BSD
+cd /mnt/'your dir'
 
 # Run all demos for curve 37a1 (rank 1)
 ./run_all.sh 37a1
@@ -54,7 +54,8 @@ cd /mnt/e/engGit/Gem/LX/BSD
 #### From PowerShell (one-liner)
 ```powershell
 # Run directly from Windows PowerShell
-wsl -d Ubuntu-22.04 -e bash -c "cd /mnt/e/engGit/Gem/LX/BSD && ./run_all.sh 37a1"
+wsl -d Ubuntu-22.04 -e bash -c "cd /mnt/'your dir'
+ && ./run_all.sh 37a1"
 ```
 
 ### Individual Script Usage (in WSL)
