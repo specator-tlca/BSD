@@ -1,0 +1,5 @@
+curves:
+  - label: 11a1
+    note: rank 0, minimal conductor with multiplicative prime 11
+  - label: 37a1
+    note: rank 1, standard demo curve

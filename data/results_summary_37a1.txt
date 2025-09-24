@@ -1,0 +1,66 @@
+BSD Results Viewer - Curve: 37a1
+
+============================================================
+Principal Part Results (data/principal_part_37a1_20250924_203321.json)
+============================================================
+Parameters:
+  X = 10000.0
+  eps = 0.001
+  B = 30000
+  eta = 1.2
+
+Results:
+  t_X(1+eps) = -3.972059 + 0.000000i
+  log L(E,1+eps) = -8.091317
+  log det_fin = 1.603834
+
+Slope checks:
+  h=0.0010: slope = 1.1713
+  h=0.0005: slope = 1.1558
+  h=0.0003: slope = 1.1428
+
+============================================================
+Gap Polynomial Results (data/gap_poly_37a1_20250924_203322.json)
+============================================================
+Parameters:
+  Lmax = 29
+  Mmax = 2
+  Number of features = 18
+  Number of newforms = 2
+
+Spectral gap: δ = 0.601328
+P(f) = 1.000000
+|P(g_0)| = 0.398672
+
+============================================================
+BSD Components (data/bsd_components_37a1_20250924_203325.json)
+============================================================
+Curve data:
+  Rank = 1
+  Torsion = Z/1Z
+
+BSD components:
+  Regulator = 0.051111
+  Real period = 2.993459
+  Product of Tamagawa numbers = 1
+
+Generators:
+  (0 : -1 : 1) (height = 0.051111)
+
+L-series value:
+  L^(1)(E,1)/1! = 0.306000
+
+BSD block (sans |Sha|, sans κ) = 0.153000
+
+============================================================
+Renormalization Matrix (data/renorm_matrix_20250924_203324.npz)
+============================================================
+N = 37
+Dimension R = 2
+Multiplicative primes: [37]
+Determinant = 3.610918e+00
+Condition number = 3.909e+00
+
+Eigenvalues:
+  λ_1 = 3.610918
+  λ_2 = 1.000000

@@ -1,0 +1,47 @@
+{
+  "curve": "37a1",
+  "curve_data": {
+    "conductor": 37,
+    "rank": 1,
+    "torsion_order": 1,
+    "torsion_structure": []
+  },
+  "bsd_components": {
+    "rank": 1,
+    "regulator": 0.05111140823996884,
+    "real_period": 2.9934586462319595,
+    "tamagawa_product": 1,
+    "tamagawa_numbers": {
+      "37": 1
+    },
+    "torsion_order": 1,
+    "generators": [
+      {
+        "point": "(0 : -1 : 1)",
+        "height": 0.05111140823996884
+      }
+    ]
+  },
+  "L_series": {
+    "L_derivatives": [
+      {
+        "order": 0,
+        "value": 0.0
+      },
+      {
+        "order": 1,
+        "value": 0.3059997738340523
+      }
+    ],
+    "L_r_over_r_factorial": 0.3059997738340523
+  },
+  "bsd_block": {
+    "value": 0.15299988691702615,
+    "formula": "Reg * Omega * prod(c_p) / |E(Q)_tors|^2",
+    "note": "Missing factors: |Sha| and kappa (isogeny-invariant normalization)"
+  },
+  "metadata": {
+    "timestamp": "2025-09-24T20:33:25.643448",
+    "curve": "37a1"
+  }
+}
