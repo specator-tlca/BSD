@@ -1,0 +1,5 @@
+Curve: 37a1, conductor N=37
+[01] wrote 668 rows to data/a_ell_37a1_B5000.csv
+Tamagawa numbers c_p: [1]
+Torsion order: 1
+Rank (Sage): 1

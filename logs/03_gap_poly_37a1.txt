@@ -1,0 +1,4 @@
+Found 1 other forms
+[03] Hecke separator with 18 features, normalized P(f)=1
+     |P(g)| = 0.398672  =>  spectral gap delta ≈ 0.601328
+[03] Saved results to data/gap_poly_37a1_20250924_203322.json

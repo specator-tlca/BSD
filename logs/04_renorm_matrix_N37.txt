@@ -1,0 +1,4 @@
+[04] R=2, multiplicative primes=[37]
+     det(M)=3.610918e+00,  cond_2(M)=3.909e+00  (Vandermonde style)
+     eigenvalues: [3.61091791 1.        ]
+[04] Saved results to data/renorm_matrix_20250924_203324.npz

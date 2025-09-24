@@ -1,0 +1,6 @@
+[05] Curve 37a1
+     r=1, Reg=0.0511114082399688, Omega=2.99345864623196, prod c_p=1, |E(Q)_tors|=1
+     L^{1}(E,1)/1! ≈ 0.305999773834052
+     BSD classical block (sans |Sha|, sans kappa) ≈ 0.152999886917026
+     (kappa is a normalization from the renorm system; set kappa=1 for canonical NT.)
+[05] Saved results to data/bsd_components_37a1_20250924_203325.json
