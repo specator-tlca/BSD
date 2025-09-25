@@ -106,7 +106,7 @@ where κ is the isogeny-invariant normalization factor from renormalization.
 ```bash
 # Enter WSL environment
 wsl -d Ubuntu-22.04
-cd /mnt/e/engGit/Gem/LX/BSD
+cd /mnt/'your dir' 
 
 # Run complete framework for curve 37a1
 ./run_all.sh 37a1
