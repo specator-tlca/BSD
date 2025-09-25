@@ -2,6 +2,8 @@
 
 ## Overview
 Computational verification of key components in the operator-Fredholm approach to BSD conjecture.
+This repo is demo pack for "Birch–Swinnerton–Dyer via an Operator–Fredholm Method" research by miruka 
+Main document loccated at https://zenodo.org/records/17201882
 
 ## Installation
 
